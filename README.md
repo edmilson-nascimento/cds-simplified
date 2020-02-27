@@ -25,3 +25,55 @@ define view ZABAP_CDS_VIEW_001 as select from spfli {
     *
 }
 ```
+### Parte 02 ###
+Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
+
+```abap
+
+@AbapCatalog.sqlViewName: 'ZSQL_ZFLIGHT1'
+@AbapCatalog.compiler.CompareFilter: true
+@AbapCatalog.preserveKey: true
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'flights'
+define view zflight_02 
+
+// Block B
+with parameters
+  p_carrid : abap.char( 3 ),
+  p_mandt  : abap.clnt(3)
+
+// Block C
+as select from spfli {
+  mandt,
+  carrid,
+  cityfrom,
+  cityto,
+  fltime as duration_min,
+
+// Block D
+  concat(cityfrom, cityto) as test1,
+//  concat_with_space(cityfrom, cityto, 3 ) as test2,  
+  concat(cityfrom, concat( ' - ', cityto))  as test2,
+
+// Bloco E
+case 
+  when fltime < 100 then 'Short'
+  when fltime < 300 then 'Medium'
+  else 'Long'
+end as flight_duration,
+fltime*60 as duration_sec   
+
+}
+
+// Block F
+/*
+where carrid = :p_carrid
+  and mandt  = $parameters.p_mandt;
+*/  
+  
+where carrid = :p_carrid
+  and mandt  = :p_mandt;
+
+```
+
+Na primeira parte, foi criado apenas um `ABAP CDS` mais simples, acessando a tabela `SPFLI`, conforme abaixo.
