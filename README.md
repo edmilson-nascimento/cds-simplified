@@ -30,7 +30,7 @@ E o código acima traz como resultado os dados da imagem abaixo.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://imgur.com/a/nj6QqFq "Logo Title Text 1")
+![alt text](https://i.imgur.com/T5Idgie.png "Logo Title Text 1")
 
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
