@@ -25,6 +25,11 @@ define view ZABAP_CDS_VIEW_001 as select from spfli {
     *
 }
 ```
+E o código acima traz como resultado os dados da imagem abaixo.
+
+![alt text](https://www.imagemhost.com.br/image/JlB9E)
+
+
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
 
