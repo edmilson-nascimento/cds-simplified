@@ -30,7 +30,7 @@ E o código acima traz como resultado os dados da imagem abaixo.
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://www.pinterest.com/pin/426082814751728203/ "Logo Title Text 1")
 
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
