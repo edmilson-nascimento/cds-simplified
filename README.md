@@ -32,7 +32,7 @@ E o código acima traz como resultado os dados da imagem abaixo.
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
 
-```abap CDS
+```sql
 
 @AbapCatalog.sqlViewName: 'ZSQL_ZFLIGHT1'
 @AbapCatalog.compiler.CompareFilter: true
