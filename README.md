@@ -41,12 +41,12 @@ Na segunda parte, foram feitas mais implementações como paramentros de filtros
 @EndUserText.label: 'flights'
 define view zflight_02 
 
-// Block B
+/* parametro de filtro */
 with parameters
   p_carrid : abap.char( 3 ),
   p_mandt  : abap.clnt(3)
 
-// Block C
+/* campos que serao exibidos */
 as select from spfli {
   mandt,
   carrid,
@@ -54,12 +54,16 @@ as select from spfli {
   cityto,
   fltime as duration_min,
 
-// Block D
+/* nova campo (concatenado) */
   concat(cityfrom, cityto) as test1,
-//  concat_with_space(cityfrom, cityto, 3 ) as test2,  
+
+/* novo campo (concatenado com espaço) 
+  concat_with_space(cityfrom, cityto, 3 ) as test2, */
+  
+/* novo campo (concatenado com line) */
   concat(cityfrom, concat( ' - ', cityto))  as test2,
 
-// Bloco E
+/* novo campo (com valor condicional) */
 case 
   when fltime < 100 then 'Short'
   when fltime < 300 then 'Medium'
@@ -69,8 +73,9 @@ fltime*60 as duration_sec
 
 }
 
-// Block F
-/*
+
+/* Condicoes para selecao (filtro)
+
 where carrid = :p_carrid
   and mandt  = $parameters.p_mandt;
 */  
