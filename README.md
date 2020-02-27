@@ -27,9 +27,15 @@ define view ZABAP_CDS_VIEW_001 as select from spfli {
 ```
 E o código acima traz como resultado os dados da imagem abaixo.
 
-![alt text](https://www.imagemhost.com.br/image/JlB9E)
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+Here's our logo (hover to see the title text):
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
