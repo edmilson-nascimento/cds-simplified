@@ -28,6 +28,7 @@ define view ZABAP_CDS_VIEW_001 as select from spfli {
 E o código acima traz como resultado os dados da imagem abaixo.
 
 ![alt text](https://www.imagemhost.com.br/image/JlB9E)
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 
 ### Parte 02 ###
