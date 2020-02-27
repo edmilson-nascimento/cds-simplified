@@ -32,6 +32,7 @@ E o código acima traz como resultado os dados da imagem abaixo.
 ### Parte 02 ###
 Na segunda parte, foram feitas mais implementações como paramentros de filtros e etc.
 
+
 ```sql
 
 @AbapCatalog.sqlViewName: 'ZSQL_ZFLIGHT1'
@@ -85,4 +86,8 @@ where carrid = :p_carrid
 
 ```
 
-Na primeira parte, foi criado apenas um `ABAP CDS` mais simples, acessando a tabela `SPFLI`, conforme abaixo.
+Na Parte 02, uma das coisas interessante de se utulizar o parametro, é que pode ser executado direto do _Eclipse_ com o filtro que deseja informar, como mostra na imagem abaixo os paramentros e tambem o resultado.
+
+![alt text](https://i.imgur.com/moQFFuf.png "Tela de parametros Parte 02")
+
+![alt text](https://i.imgur.com/tWsudsi.png "Resultado Parte 02")
