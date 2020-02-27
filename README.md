@@ -11,3 +11,17 @@ Criar um `Data Definition` do tipo `Define View`. Reforço que essa utilização
 Utilização de `ABAP CDS` com a tabela `SPFLI`. O desenvolvimento foi criado no [Eclipse 2019-12 (4.14)](https://www.eclipse.org/downloads/packages/release/2019-12/r) conforme recomendado para [ABAP Development Tools](https://tools.hana.ondemand.com/#abap).
 
 ## Solução ##
+
+### Parte 01 ###
+Na primeira parte, foi criado apenas um `ABAP CDS` mais simples, acessando a tabela `SPFLI`, conforme abaixo.
+
+```abap
+@AbapCatalog.sqlViewName: 'ZDBVW_SPFLI'
+@AbapCatalog.compiler.CompareFilter: true
+@AbapCatalog.preserveKey: true
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'CDS View test'
+define view ZABAP_CDS_VIEW_001 as select from spfli {
+    *
+}
+```
