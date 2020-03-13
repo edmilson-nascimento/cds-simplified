@@ -92,5 +92,4 @@ Na Parte 02, uma das coisas interessante de se utulizar o parametro, é que pode
 
 ![alt text](https://i.imgur.com/tWsudsi.png "Resultado Parte 02")
 
-![alt text](https://i.imgur.com/tWsudsi.png "Tela de parametros Parte 00")
-
+;)
