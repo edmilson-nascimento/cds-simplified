@@ -85,7 +85,6 @@ where carrid = :p_carrid
   and mandt  = :p_mandt;
 
 ```
-
 Na Parte 02, uma das coisas interessante de se utulizar o parametro, é que pode ser executado direto do _Eclipse_ com o filtro que deseja informar, como mostra na imagem abaixo os paramentros e tambem o resultado.
 
 ![alt text](https://i.imgur.com/moQFFuf.png "Tela de parametros Parte 02")
