@@ -22,7 +22,6 @@ define view /yga/dd_tt_da
       and afvu.aplzl = afvc.aplzl
 
 {
-//key /yga/tipo_tecnol.aufnr            as order,
   key /yga/tipo_tecnol.aufnr,
 
       /yga/tipo_tecnol.vornr            as operation,
