@@ -9,7 +9,11 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/total/edmilson-nascimento/cds-simplified?style=flat)
 
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/edmilson-nascimento/cds-simplified)
+
 ![SAP S/4HANA](https://img.shields.io/badge/SAP_S/4HANA-005FD0?style=flat&logo=sap&logoColor=white)
+
+
 
 ![N|Solid](img/SAP%20Banner.jpg)
 
