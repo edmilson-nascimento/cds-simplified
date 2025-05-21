@@ -7,7 +7,7 @@
 
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/total/edmilson-nascimento/cds-simplified?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/total/edmilson-nascimento/cds-simplified)
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/edmilson-nascimento/cds-simplified)
 
