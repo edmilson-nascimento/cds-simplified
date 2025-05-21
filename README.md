@@ -5,9 +5,9 @@
 ![ABAP OO](https://img.shields.io/badge/ABAP_OO-2B4C7E?style=flat&logo=sap&logoColor=white)
 ![SAP Development](https://img.shields.io/badge/SAP_Development-316BA7?style=flat&logo=sap&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/total/edmilson-nascimento/classe-outro-report?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/total/edmilson-nascimento/cds-simplified?style=flat)
 ![SAP S/4HANA](https://img.shields.io/badge/SAP_S/4HANA-005FD0?style=flat&logo=sap&logoColor=white)
-![SAP On-premise](https://img.shields.io/badge/SAP_On--premise-00165C?style=flat&logo=sap&logoColor=white)
+
 
 ![N|Solid](img/SAP%20Banner.jpg)
 
